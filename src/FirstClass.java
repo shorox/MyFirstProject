@@ -1,9 +1,9 @@
 /**
- * Created by sharov on 05.05.2016.
+ * Created by sharov on 31.05.2016.
  */
 public class FirstClass {
-    public static void main(String[] args) {
-        System.out.println("Fifth commit");
+    public void first(){
+        Singleton s = Singleton.getInstance();
+        s.setA(5);
     }
-
 }
